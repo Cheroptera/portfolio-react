@@ -6,12 +6,12 @@ const Hero = () => {
     <div className="hero-section">
       <header className="top-section">
         <div className="logo-container">
-          <img className="logo" src="./images/stripes.jpg" alt="logo" />
+          <div className="logo" alt="logo" />
         </div>
         <div className="header">
           <section className="header-image-and-text">
             <div className="header-image">
-              <img className="profile-picture" title="profile-pic" src="./images/frida-randig.JPG" alt="Frida" />
+              <img className="profile-picture" title="profile-pic" src="./images/frida_rosa.JPG" alt="Frida" />
             </div>
             <div className="header-text">
               <h1 className="frida">Frida M. Gustavson</h1>

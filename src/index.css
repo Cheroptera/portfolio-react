@@ -23,6 +23,12 @@ body {
 
 /* Top section with header and logo*/
 
+.hero-section {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .top-section {
   display: flex;
   flex-direction: column;
@@ -581,6 +587,7 @@ body {
   .logo {
     display: flex; 
     width:100%; 
+    background-color: #b69fdf;
   }
 
   .arrow-section {
