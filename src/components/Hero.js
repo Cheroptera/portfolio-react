@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="header">
           <section className="header-image-and-text">
             <div className="header-image">
-              <img className="profile-picture" title="profile-pic" src="./images/frida_rosa.JPG" alt="Frida" />
+              <img className="profile-picture" title="profile-pic" src="./images/frida-randig.JPG" alt="Frida" />
             </div>
             <div className="header-text">
               <h1 className="frida">Frida M. Gustavson</h1>
@@ -29,19 +29,19 @@ const Hero = () => {
           </section>
           <section className="socialmedia-icons">
             <a href="https://github.com/Cheroptera" target="_blank" rel="noreferrer">
-              <img className="sm-icon" src="./assets/github.svg" alt="Github icon" />
+              <img className="sm-icon" src="./images/github.svg" alt="Github icon" />
             </a>
             <a href="https://linkedin.com/freedahsoul" target="_blank" rel="noreferrer">
-              <img className="sm-icon" src="./assets/linkedin.svg" alt="Linkedin icon" />
+              <img className="sm-icon" src="./images/linkedin.svg" alt="Linkedin icon" />
             </a>
             <a href="https://stackoverflowteams.com/c/technigo/users/464/" target="_blank" rel="noreferrer">
-              <img className="sm-icon" src="./assets/stackoverflow.svg" alt="Stack overflow icon" />
+              <img className="sm-icon" src="./images/stackoverflow.svg" alt="Stack overflow icon" />
             </a>
           </section>
         </div>
       </header>
       <div className="arrow-section">
-        <img className="arrow" src="./assets/pngegg.png " alt="arrow indicating that you should scroll downwards" />
+        <img className="arrow" src="./images/pngegg.png" alt="arrow indicating that you should scroll downwards" />
       </div>
     </div>
   )

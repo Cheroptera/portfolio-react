@@ -7,7 +7,7 @@ const Tech = () => {
         <h3>Tech</h3>
       </div>
       <p className="tech-text">
-        HTML, CSS, Flexbox, CSS Grid,<span className="pink-highlight"> JavaScript</span>, ES6, JSX,
+        HTML, CSS, SASS, Flexbox, CSS Grid,<span className="pink-highlight"> JavaScript</span>, ES6, JSX,
         <span
           className="blue-highlight"> React
         </span>, React Hooks, Redux, Node.js, Mongo DB, Web Accessibility,

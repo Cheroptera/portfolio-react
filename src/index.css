@@ -18,7 +18,7 @@ code {
   text-decoration: none;
 }
 body {
-  background: #fff0f5;
+  background: #f7f5ff;
 }
 
 /* Top section with header and logo*/
@@ -134,7 +134,7 @@ body {
 
 .tech-section {
   display: flex;
-  background-color: #b0e0e6;
+  background-color: #e4f4e3;
   flex-direction: column;
 }
 
@@ -159,12 +159,12 @@ body {
 }
 
 .blue-highlight {
-  background-color: blue;
+  background-color: #9ed9db;
   color: white;
 }
 
 .pastel-blue-highlight {
-  background-color: rgb(131, 178, 194);
+  background-color: #b69fdf;
   color: white;
 }
 
@@ -178,6 +178,10 @@ body {
 }
 
 .section-title {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-family: "Satoshi", sans-serif;
   font-size: 72px;
   font-weight: 700;
@@ -201,15 +205,16 @@ body {
   font-family: "Satoshi", sans-serif;
   font-weight: 900;
   font-size: 32px;
-  font-style: black;
+  color: black;
 }
 
 .project-text {
-  font-family: "EB Garamond", serif;
   font-size: 22px;
   font-weight: 400;
   margin-top: 18px;
   margin-bottom: 18px;
+  color:black;
+  font-family: 'EB Garamond', 'sans serif';
 }
 
 .language-buttons {
@@ -409,7 +414,7 @@ body {
   .logo-container {
     display: flex;
     height: 412px;
-    background: blue;
+    background: #b69fdf;
     justify-content: center;
   }
 

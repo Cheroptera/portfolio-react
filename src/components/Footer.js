@@ -25,13 +25,13 @@ const Footer = () => {
         </div>
         <div className="socialmedia-icons-footer">
           <a href="https://github.com/Cheroptera" target="_blank" rel="noreferrer">
-            <img className="sm-icon" src="./assets/github.svg" alt="Github icon" />
+            <img className="sm-icon" src="./images/github.svg" alt="Github icon" />
           </a>
           <a href="https://linkedin.com/freedahsoul" target="_blank" rel="noreferrer">
-            <img className="sm-icon" src="./assets/linkedin.svg" alt="Linkedin icon" />
+            <img className="sm-icon" src="./images/linkedin.svg" alt="Linkedin icon" />
           </a>
           <a href="https://stackoverflowteams.com/c/technigo/users/464/" target="_blank" rel="noreferrer">
-            <img className="sm-icon" src="./assets/stackoverflow.svg" alt="Stack overflow icon" />
+            <img className="sm-icon" src="./images/stackoverflow.svg" alt="Stack overflow icon" />
           </a>
         </div>
       </article>
