@@ -1,3 +1,4 @@
+import React from 'react'
 import GlobalStyles from './components/GlobalStyles'
 import Tech from './components/Tech'
 import Hero from './components/Hero'
@@ -6,7 +7,7 @@ import Words from './components/Words'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
 
-function App() {
+const App = () => {
   return (
     <div>
       <GlobalStyles />

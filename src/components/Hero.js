@@ -1,46 +1,47 @@
-import React from "react";
+/* eslint-disable max-len */
+import React from 'react';
 
 const Hero = () => {
   return (
-    <div class="hero-section">
-      <header class="top-section">
-        <div class="logo-container">
-          <img class="logo" src="./images/stripes.jpg" alt="logo" />
+    <div className="hero-section">
+      <header className="top-section">
+        <div className="logo-container">
+          <img className="logo" src="./images/stripes.jpg" alt="logo" />
         </div>
-        <div class="header">
-          <section class="header-image-and-text">
-            <div class="header-image">
-              <img class="profile-picture" title="profile-pic" src="./images/frida-randig.JPG" alt="Picture of Frida" />
+        <div className="header">
+          <section className="header-image-and-text">
+            <div className="header-image">
+              <img className="profile-picture" title="profile-pic" src="./images/frida-randig.JPG" alt="Frida" />
             </div>
-            <div class="header-text">
-              <h1 class="frida">Frida M. Gustavson</h1>
-              <h3 class="job-title">Front-End Developer</h3>
-              <h4 class="extra-job-title">with a passion for creative solutions
+            <div className="header-text">
+              <h1 className="frida">Frida M. Gustavson</h1>
+              <h3 className="job-title">Front-End Developer</h3>
+              <h4 className="extra-job-title">with a passion for creative solutions
               </h4>
             </div>
           </section>
-          <section tabindex="0">
-            <h6 class="presentation">I'm a driven, curious and tech-savvy Swede who decided to switch careers when turning
+          <section>
+            <h6 className="presentation">I&apos;m a driven, curious and tech-savvy Swede who decided to switch careers when turning
               40 and dive head-first into web development. I love problem-solving, new tech, design and using my creativity
               to create visually appealing and user-friendly websites and apps.
 
             </h6>
           </section>
-          <section class="socialmedia-icons">
-            <a href="https://github.com/Cheroptera" target="_blank">
-              <img class="sm-icon" src="./assets/github.svg" alt="Github icon" />
+          <section className="socialmedia-icons">
+            <a href="https://github.com/Cheroptera" target="_blank" rel="noreferrer">
+              <img className="sm-icon" src="./assets/github.svg" alt="Github icon" />
             </a>
-            <a href="https://linkedin.com/freedahsoul" target="_blank">
-              <img class="sm-icon" src="./assets/linkedin.svg" alt="Linkedin icon" />
+            <a href="https://linkedin.com/freedahsoul" target="_blank" rel="noreferrer">
+              <img className="sm-icon" src="./assets/linkedin.svg" alt="Linkedin icon" />
             </a>
-            <a href="https://stackoverflowteams.com/c/technigo/users/464/" target="_blank">
-              <img class="sm-icon" src="./assets/stackoverflow.svg" alt="Stack overflow icon" />
+            <a href="https://stackoverflowteams.com/c/technigo/users/464/" target="_blank" rel="noreferrer">
+              <img className="sm-icon" src="./assets/stackoverflow.svg" alt="Stack overflow icon" />
             </a>
           </section>
         </div>
       </header>
-      <div class="arrow-section">
-        <img class="arrow" src="./assets/pngegg.png " alt="arrow indicating that you should scroll downwards" />
+      <div className="arrow-section">
+        <img className="arrow" src="./assets/pngegg.png " alt="arrow indicating that you should scroll downwards" />
       </div>
     </div>
   )

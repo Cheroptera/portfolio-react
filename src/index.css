@@ -11,3 +11,744 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background: #fff0f5;
+}
+
+/* Top section with header and logo*/
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 55px;
+  margin: 0px 24px;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 164px;
+}
+
+.header-text {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.frida {
+  padding-top: 29px;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  color: blue;
+}
+
+.job-title {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  font-style: normal;
+}
+
+.extra-job-title {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #565656;
+}
+
+.presentation {
+  font-family: "EB Garamond", serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 32px;
+}
+
+.logo-container {
+  display: none;
+}
+
+.sm-icon {
+  padding-top: 15px;
+  width: 32px;
+}
+
+.socialmedia-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 12px;
+}
+
+.sm-icon:hover {
+  filter: brightness(0%);
+}
+
+.project-image:hover {
+  filter: brightness(40%);
+}
+
+.arrow-section {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  width: 50px;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50px);
+  }
+}
+
+/* Tech Section */
+
+.tech-section {
+  display: flex;
+  background-color: #b0e0e6;
+  flex-direction: column;
+}
+
+.tech-title {
+  font-family: "Satoshi", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: blue;
+  margin: 99px 0px 37px 0px;
+  text-align: center;
+}
+
+.tech-text {
+  font-family: "EB Garamond", serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 24px;
+}
+
+.pink-highlight {
+  background-color: pink;
+}
+
+.blue-highlight {
+  background-color: blue;
+  color: white;
+}
+
+.pastel-blue-highlight {
+  background-color: rgb(131, 178, 194);
+  color: white;
+}
+
+/* Projects section */
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 24px;
+}
+
+.section-title {
+  font-family: "Satoshi", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: blue;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-image {
+  width: 100%;
+  height: 208px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.project-title {
+  display: flex;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  font-style: black;
+}
+
+.project-text {
+  font-family: "EB Garamond", serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.language-buttons {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.language-text {
+  background-color: black;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+}
+.github-link-project {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  padding: 0px 16px 0px 0px;
+  margin-top: 24px;
+  border: none;
+  border-radius: 40px;
+  height: 48px;
+}
+.live-link-project {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  padding: 0px 16px 0px 0px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 40px;
+  height: 48px;
+  margin-bottom: 24px;
+}
+
+.github-link-project:hover {
+  background-color: hotpink;
+  color: white;
+  background-image: white;
+}
+
+.live-link-project:hover {
+  background-color: blue;
+  color: white;
+  background-image: white;
+}
+
+/* Skills section */
+
+.skills-title {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  text-align: center;
+  padding: 40px;
+  color: blue;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  background: #fdf2e4;
+  padding: 40px;
+}
+
+.skills-list {
+  font-family: "EB Garamond", serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.code {
+  background: hotpink;
+  color: white;
+}
+
+.toolbox {
+  background: blue;
+  color: white;
+}
+
+.more {
+  background: lightseagreen;
+  color: white;
+}
+
+.upcoming {
+  background: green;
+  color: white;
+}
+
+/* My words section */
+
+.my-words-section {
+  flex-direction: column;
+  display: flex;
+  padding: 64px 24px;
+  background: #eaf6f6;
+}
+
+.mw-section-title {
+  font-family: "Satoshi", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #eb5577;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.date-text {
+  font-family: "Satoshi", sans-serif;
+  color: #eb5577;
+  font-weight: 900;
+  padding-top: 20px;
+}
+.blog-image {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.read-more-button {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: white;
+  padding: 0px 16px 0px 9px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 40px;
+  height: 48px;
+}
+
+.read-more-button:hover {
+  background: yellow;
+}
+
+/* Footer section */
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 24px;
+}
+
+.footer-image {
+  display: flex;
+  justify-content: flex-start;
+  gap: 29px;
+}
+
+.footer-title {
+  font-family: "Satoshi", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  color: #eb5577;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.contact-card {
+  padding: 10px;
+}
+
+.contact-info {
+  font-family: "Satoshi", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+/* Media queries */
+
+/* Tablet */
+
+@media screen and (min-width: 667px) and (max-width: 1024px) {
+  .logo-container {
+    display: flex;
+    height: 412px;
+    background: blue;
+    justify-content: center;
+  }
+
+  .logo {
+    flex-basis: fit-content;
+  }
+
+  .header {
+    display: flex;
+    margin: 0px 102px;
+  }
+
+  .header-image-and-text {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+  }
+
+  .header-image {
+    display: block;
+  }
+
+  .header-text {
+    text-align: start;
+  }
+
+  .presentation {
+    line-height: 29px;
+  }
+
+  .socialmedia-icons {
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 32px;
+    padding: 40px 0px;
+  }
+
+  .arrow-section {
+    align-items: flex-end;
+    height: 20px;
+  }
+
+  .tech-text {
+    text-align: start;
+    margin: 122px;
+    line-height: 32px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 280px;
+    margin: 80px 0px;
+  }
+
+  .project-image {
+    flex-basis: 20%;
+    height: 280px;
+    width: 184px;
+    object-fit: cover;
+  }
+
+  .project-text-and-icons {
+    flex-basis: 60%;
+    padding-left: 24px;
+    height: 208px;
+    width: 500px;
+  }
+
+  .link-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 24px;
+  }
+
+  .live-link-project {
+    margin-top: 24px;
+  }
+
+  .blog-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: auto 60px;
+  }
+
+  .footer-title {
+    font-size: 120px;
+    font-weight: 900px;
+  }
+
+  .contact-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .contact-wrapper {
+    display: grid;
+    justify-content: center;
+  }
+
+  .contact-details {
+    text-align: center;
+    padding: 120px;
+  }
+
+  .contact-info {
+    font-size: 32px;
+    font-weight: 900;
+  }
+
+  .socialmedia-icons-footer {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 168px 0px;
+  }
+}
+/* Desktop */
+
+@media (min-width: 1024px) {
+  .top-section {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+
+  .header {
+    flex-basis: 50%;
+    height: 980px;
+    margin: 0px;
+    justify-items: center;
+    justify-content: center;  }
+
+  .header-image-and-text {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    justify-content:center;
+  }
+
+  .header-image {
+    display: block;
+  }
+
+  .header-text {
+    text-align: start;
+  }
+
+  .presentation {
+    line-height: 29px;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  .socialmedia-icons {
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 32px;
+    padding: 40px 0px;
+    margin-left: 10%;
+  }
+
+  .logo-container {
+    display: flex;
+    flex-basis: 50%;
+    background: blue;
+    justify-content: center;
+  }
+
+  .logo {
+    display: flex; 
+    width:100%; 
+  }
+
+  .arrow-section {
+    height: 0vh;
+  }
+
+  .arrow {
+    filter: brightness(10%);
+  }
+  .tech-title {
+    flex-basis: 30%;
+    margin: 0%;
+  }
+  .tech-section {
+    display: flex;
+    height: 800px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tech-text {
+    flex-basis: 40%;
+    margin: 0px;
+    line-height: 32px;
+  }
+
+  .section-title {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+  }
+
+  .project {
+    display: flex;
+    margin: 80px 0px;
+    justify-content: center;
+  }
+
+  .project-image {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+  }
+
+  .project-text {
+    line-height: 29px;
+  }
+  .project-text-and-icons {
+    padding-left: 24px;
+    height: 280px;
+    width: 500px;
+  }
+
+  .link-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 24px;
+  }
+
+  .live-link-project {
+    margin-top: 24px;
+  }
+
+  .footer-title {
+    font-size: 120px;
+    font-weight: 900px;
+  }
+
+  .contact-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .contact-wrapper {
+    display: grid;
+    justify-content: center;
+  }
+
+  .contact-details {
+    text-align: center;
+    padding: 120px;
+  }
+
+  .contact-info {
+    font-size: 32px;
+    font-weight: 900;
+  }
+
+  .socialmedia-icons-footer {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 168px 0px;
+  }
+
+  .blog-container {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin: auto 60px;
+  }
+
+  .mw-section-title {
+    text-align: start;
+    margin-left: 84px;
+    padding-bottom: 79px;
+    font-size: 80px;
+  }
+
+  .blog-image {
+    height: 340px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .date-text {
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  .blog-text-group {
+    display: flex;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 66px;
+  }
+
+  .skills-section {
+    padding: 150px 40px;
+  }
+
+  #codeList,
+  #moreList,
+  #toolboxList,
+  #upcomingList {
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .code,
+  .more,
+  .toolbox,
+  .upcoming {
+    font-family: Satoshi, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .skills-title {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 1600px) {
+
+  .socialmedia-icons {
+    margin-left: 20%; 
+  }
+
+  .presentation {
+    margin-left: 20%;
+  }
+}
