@@ -30,7 +30,7 @@ export const projectList = [
     alt: 'picture of computer',
     description: 'To-do app built in React, using Redux to write my own reducers and actions.',
     tags: ['JavaScript', 'Redux', 'React', 'Styled Components'],
-    demo: 'getitdonealready.netlify.app',
+    demo: 'https://getitdonealready.netlify.app',
     code: 'https://github.com/Cheroptera/project-todos'
   },
   {
