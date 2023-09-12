@@ -2,7 +2,7 @@
 export const projectList = [
   {
     title: 'Circuit Training App',
-    img: './images/circle-it-cover.png',
+    img: './images/circle-it-cover.webp',
     alt: 'picture of workout app',
     description: "Fullstack project, in which we've built our own API and database. Login functionality that unlocks more features for the user.",
     tags: ['Figma', 'Styled Components', 'JavaScript', 'API', 'React', 'MongoDB', 'Express.js', 'Node.js'],
@@ -14,7 +14,7 @@ export const projectList = [
   },
   {
     title: 'Happy Vibes App',
-    img: './images/project-happy-thoughts.png',
+    img: './images/project-happy-thoughts.webp',
     alt: 'picture of computer',
     description: 'A Twitter-like app without all the negativity. Fullstack project.',
     tags: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Express.js', 'MongoDB', 'Node.js'],
@@ -26,7 +26,7 @@ export const projectList = [
   },
   {
     title: 'To-do App',
-    img: './images/project-todos.png',
+    img: './images/project-todos.webp',
     alt: 'picture of computer',
     description: 'To-do app built in React, using Redux to write my own reducers and actions.',
     tags: ['JavaScript', 'Redux', 'React', 'Styled Components'],
@@ -35,7 +35,7 @@ export const projectList = [
   },
   {
     title: 'Quiz App',
-    img: './images/project-quiz.png',
+    img: './images/project-quiz.webp',
     alt: 'picture of computer',
     description: 'Group project, in which we used Figma as a planning tool for components and design. The app was built mob-programming.',
     tags: ['Styled Components', 'JavaScript', 'Redux', 'React'],
@@ -45,7 +45,7 @@ export const projectList = [
   },
   {
     title: 'Design Handoff',
-    img: './images/project-design-handoff.png',
+    img: './images/project-design-handoff.webp',
     alt: 'picture of computer',
     description: "Transforming a UX-design student's design into code. (Visual design only - no functionality)",
     tags: ['HTML', 'CSS'],
@@ -54,7 +54,7 @@ export const projectList = [
   },
   {
     title: 'Movie Releases App',
-    img: './images/project-movies.png',
+    img: './images/project-movies.webp',
     alt: 'picture of computer',
     description: 'My first multi-page React application, using a fun new API',
     tags: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Pair-Programming'],
@@ -63,7 +63,7 @@ export const projectList = [
   },
   {
     title: 'Survey App',
-    img: './images/project-survey.png',
+    img: './images/project-survey.webp',
     alt: 'picture of computer',
     description: "A survey in the form of a 'fill-in-the-blanks' story, built in React. Try it out! The result is hilarious!",
     tags: ['HTML', 'CSS', 'JavaScript', 'React'],
@@ -72,7 +72,7 @@ export const projectList = [
   },
   {
     title: 'Music Release App',
-    img: './images/project-music-releases.png',
+    img: './images/project-music-releases.webp',
     alt: 'picture of music app',
     description: 'A Music Release App built in React, using components and passing props.',
     tags: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Pair-Programming'],
@@ -81,7 +81,7 @@ export const projectList = [
   },
   {
     title: 'Chatbot',
-    img: './images/project-chatbot.png',
+    img: './images/project-chatbot.webp',
     alt: 'picture of chatbot',
     description: "A 'Knock Knock Machine' chatbot built with Vanilla Javascript. A perfect time-killer for those who loves a good laugh.",
     tags: ['HTML', 'CSS', 'JavaScript'],
@@ -91,7 +91,7 @@ export const projectList = [
   },
   {
     title: 'Weather App',
-    img: './images/weather-app-clear-canva.png',
+    img: './images/weather-app-clear-canva.webp',
     alt: 'picture of weather app',
     description: 'Weather app built with Vanilla Javascript, fetching a public API. The app changes colors, icons and description, depending on the weather.',
     tags: ['HTML', 'CSS', 'JavaScript', 'API'],
@@ -101,7 +101,7 @@ export const projectList = [
   {
 
     title: 'Guess Who - The Annoying People Version',
-    img: './images/project-guess-who.png',
+    img: './images/project-guess-who.webp',
     alt: 'picture of a game called Guess who',
     description: "This is my version of Guess Who, built with Vanilla Javascript. All characters are illustrated by me. Good luck. You're going to need it! ;)",
     tags: ['HTML', 'CSS', 'JavaScript'],
