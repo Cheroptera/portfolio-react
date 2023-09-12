@@ -8,10 +8,10 @@ const Projects = () => {
         <h4> Featured Projects </h4>
         {projectList.map((project) => {
           return (
-            <div className="project-container">
+            <div className="project-container" key={project.title}>
               <article className="project">
                 <div className="project-image-group">
-                  <img className="project-image" src={project.img} alt={project.alt} />
+                  <img className="project-image" src={project.img} alt={project.alt} loading="lazy" />
                 </div>
                 <div className="project-text-and-icons">
                   <div className="project-text-group">
