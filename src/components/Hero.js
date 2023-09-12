@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="header">
           <section className="header-image-and-text">
             <div className="header-image">
-              <img className="profile-picture" title="profile-pic" src="./images/frida-randig.JPG" alt="Frida" />
+              <img className="profile-picture" title="profile-pic" src="./images/frida_rosa.JPG" alt="Frida" />
             </div>
             <div className="header-text">
               <h1 className="frida">Frida M. Gustavson</h1>
@@ -34,9 +34,9 @@ const Hero = () => {
             <a href="https://linkedin.com/freedahsoul" target="_blank" rel="noreferrer">
               <img className="sm-icon" src="./images/linkedin.svg" alt="Linkedin icon" />
             </a>
-            <a href="https://stackoverflowteams.com/c/technigo/users/464/" target="_blank" rel="noreferrer">
+            {/* <a href="https://stackoverflowteams.com/c/technigo/users/464/" target="_blank" rel="noreferrer">
               <img className="sm-icon" src="./images/stackoverflow.svg" alt="Stack overflow icon" />
-            </a>
+            </a> */}
           </section>
         </div>
       </header>
