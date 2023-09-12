@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="header">
           <section className="header-image-and-text">
             <div className="header-image">
-              <img className="profile-picture" title="profile-pic" src="./images/frida_rosa.JPG" alt="Frida" />
+              <img className="profile-picture" title="profile-pic" src="./images/frida_rosa.webp" alt="Frida" />
             </div>
             <div className="header-text">
               <h1 className="frida">Frida M. Gustavson</h1>
