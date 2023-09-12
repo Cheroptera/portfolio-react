@@ -39,7 +39,7 @@ export const projectList = [
     alt: 'picture of computer',
     description: 'Group project, in which we used Figma as a planning tool for components and design. The app was built mob-programming.',
     tags: ['Styled Components', 'JavaScript', 'Redux', 'React'],
-    demo: 'https://deluxe-gelato-680ed8.netlify.app/',
+    demo: 'https://gothenburgerquiz.netlify.app/',
     code: 'https://github.com/Cheroptera/project-redux-quiz'
 
   },
