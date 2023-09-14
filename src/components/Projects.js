@@ -3,7 +3,7 @@ import { projectList } from './ProjectList'
 
 const Projects = () => {
   return (
-    <section className="projects-section">
+    <section className="projects-section" id="projects">
       <div className="section-title">
         <h4 className="featured"> Featured Projects </h4>
         {projectList.map((project) => {

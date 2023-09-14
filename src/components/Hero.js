@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="top">
       <header className="top-section">
         <div className="logo-container">
           <div className="logo" alt="logo" />

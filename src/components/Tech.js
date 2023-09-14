@@ -2,7 +2,7 @@ import React from 'react';
 
 const Tech = () => {
   return (
-    <div className="tech-section">
+    <div className="tech-section" id="tech">
       <div className="tech-title">
         <h3>Tech</h3>
       </div>
