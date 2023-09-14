@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section className="projects-section">
       <div className="section-title">
-        <h4> Featured Projects </h4>
+        <h4 className="featured"> Featured Projects </h4>
         {projectList.map((project) => {
           return (
             <div className="project-container" key={project.title}>

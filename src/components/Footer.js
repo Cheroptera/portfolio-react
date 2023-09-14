@@ -11,7 +11,7 @@ const Footer = () => {
       <article className="contact-wrapper">
         <section className="contact-card">
           <div className="footer-image">
-            <img className="profile-picture" title="profile-pic" src="./images/frida-randig.JPG" alt="Frida" />
+            <img className="profile-picture" title="profile-pic" src="./images/frida_rosa.webp" alt="Frida" />
           </div>
           <div className="footer-text">
             <h1 className="frida">Frida M. Gustavson</h1>
