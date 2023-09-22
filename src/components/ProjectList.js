@@ -7,6 +7,7 @@ export const projectList = [
     description: "Fullstack project, in which we've built our own API and database. Login functionality that unlocks more features for the user.",
     tags: ['Figma', 'Styled Components', 'JavaScript', 'API', 'React', 'MongoDB', 'Express.js', 'Node.js'],
     demo: 'https://circle-it.netlify.app/',
+    hasBackendCode: true,
     code: {
       frontend: 'https://github.com/Cheroptera/circle-it-FE',
       backend: 'https://github.com/Cheroptera/circle-it-BE'
@@ -19,6 +20,7 @@ export const projectList = [
     description: 'A Twitter-like app without all the negativity. Fullstack project.',
     tags: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Express.js', 'MongoDB', 'Node.js'],
     demo: 'https://master--jovial-hamster-0bbfb9.netlify.app/',
+    hasBackendCode: true,
     code: {
       frontend: 'https://github.com/Cheroptera/project-happy-thoughts',
       backend: 'https://github.com/Cheroptera/project-happy-thoughts-api'
@@ -31,6 +33,7 @@ export const projectList = [
     description: 'To-do app built in React, using Redux to write my own reducers and actions.',
     tags: ['JavaScript', 'Redux', 'React', 'Styled Components'],
     demo: 'https://getitdonealready.netlify.app',
+    hasBackendCode: false,
     code: 'https://github.com/Cheroptera/project-todos'
   },
   {
@@ -40,6 +43,7 @@ export const projectList = [
     description: 'Group project, in which we used Figma as a planning tool for components and design. The app was built mob-programming.',
     tags: ['Styled Components', 'JavaScript', 'Redux', 'React'],
     demo: 'https://gothenburgerquiz.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/Cheroptera/project-redux-quiz'
 
   },
@@ -50,6 +54,7 @@ export const projectList = [
     description: "Transforming a UX-design student's design into code. (Visual design only - no functionality)",
     tags: ['HTML', 'CSS'],
     demo: 'https://clever-crostata-bca231.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/Cheroptera/project-design-handoff'
   },
   {
@@ -59,6 +64,7 @@ export const projectList = [
     description: 'My first multi-page React application, using a fun new API',
     tags: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Pair-Programming'],
     demo: 'https://vio-and-fridas-music-release-project.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/Cheroptera/project-movies'
   },
   {
@@ -68,6 +74,7 @@ export const projectList = [
     description: "A survey in the form of a 'fill-in-the-blanks' story, built in React. Try it out! The result is hilarious!",
     tags: ['HTML', 'CSS', 'JavaScript', 'React'],
     demo: 'https://thestoryaboutyou.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/Cheroptera/project-survey'
   },
   {
@@ -77,6 +84,7 @@ export const projectList = [
     description: 'A Music Release App built in React, using components and passing props.',
     tags: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Pair-Programming'],
     demo: 'https://vio-and-fridas-music-release-project.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/Cheroptera/project-music-releases'
   },
   {
@@ -86,6 +94,7 @@ export const projectList = [
     description: "A 'Knock Knock Machine' chatbot built with Vanilla Javascript. A perfect time-killer for those who loves a good laugh.",
     tags: ['HTML', 'CSS', 'JavaScript'],
     demo: 'https://theknockknockmachine.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/Cheroptera/project-chatbot'
 
   },
@@ -96,6 +105,7 @@ export const projectList = [
     description: 'Weather app built with Vanilla Javascript, fetching a public API. The app changes colors, icons and description, depending on the weather.',
     tags: ['HTML', 'CSS', 'JavaScript', 'API'],
     demo: 'https://sparkling-palmier-c89c36.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/cpz-crafts/project-weather-app'
   },
   {
@@ -106,6 +116,7 @@ export const projectList = [
     description: "This is my version of Guess Who, built with Vanilla Javascript. All characters are illustrated by me. Good luck. You're going to need it! ;)",
     tags: ['HTML', 'CSS', 'JavaScript'],
     demo: 'https://cute-haupia-5d17a8.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/Cheroptera/project-guess-who'
   }
 ]
