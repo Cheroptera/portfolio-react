@@ -12,7 +12,6 @@ const Skills = () => {
             <li>CSS3</li>
             <li>JavaScript ES6</li>
             <li>Styled Components</li>
-            <li>GitHub</li>
             <li>React</li>
             <li>Redux</li>
             <li>Node.js</li>
@@ -23,6 +22,8 @@ const Skills = () => {
             <li> <span className="toolbox">Toolbox </span></li>
             <li>VS Code</li>
             <li>Stack Overflow</li>
+            <li>Git</li>
+            <li>GitHub</li>
             <li>Figma</li>
             <li>Canva</li>
             <li>ChatGPT</li>
@@ -30,6 +31,7 @@ const Skills = () => {
             <li>Compass</li>
             <li>Atlas</li>
             <li>Notion</li>
+            <li>Slack</li>
             <li>Adobe Photoshop</li>
             <li>Adobe InDesign</li>
             <li>Pro Tools</li>
