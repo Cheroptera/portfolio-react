@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react'
 import { projectList } from './ProjectList'
 import LinkButtons from './LinkButtons'
