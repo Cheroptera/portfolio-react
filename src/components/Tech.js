@@ -8,11 +8,12 @@ const Tech = () => {
         <h3>Tech</h3>
       </div>
       <p className="tech-text">
-        HTML, CSS, Flexbox, CSS Grid,<span className="pink-highlight"> JavaScript</span>, ES6, JSX,
+        HTML5, CSS3, CSS Grid, Flexbox, <span className="tech-word highlight-1" style={{ backgroundColor: 'white' }}> JavaScript/TypeScript</span>, ES6, JSX,
         <span
-          className="blue-highlight"> React
-        </span>, React Hooks, Redux,  <span className="pastel-blue-highlight"> Node.js</span>, Mongo DB, Web Accessibility,
-        APIs, Mob-Programming, Pair-Programming, Github, Google Cloud, Styled Components, Agile Methodologies.
+          style={{ backgroundColor: 'white' }}
+          className="tech-word highlight-2"> React
+        </span>, Redux,  <span className="tech-word highlight-3" style={{ backgroundColor: 'white' }}> Node.js</span>, Mongo DB, Web Accessibility,
+        Mob-Programming, Pair-Programming, Github, REST APIs, Google Cloud,  <span className="tech-word highlight-4" style={{ backgroundColor: 'white' }}>Styled Components</span>, Material UI, Bootstrap, Agile Methodologies.
       </p>
     </div>
   )
