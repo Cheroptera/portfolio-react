@@ -28,7 +28,7 @@ const Hero = () => {
               <a href="https://github.com/Cheroptera" target="_blank" rel="noreferrer">
                 <img className="sm-icon" src="./images/github.svg" alt="Github icon" />
               </a>
-              <a href="https://linkedin.com/freedahsoul" target="_blank" rel="noreferrer">
+              <a href="https://linkedin.com/in/freedahsoul" target="_blank" rel="noreferrer">
                 <img className="sm-icon" src="./images/linkedin.svg" alt="Linkedin icon" />
               </a>
               {/* <a href="https://stackoverflowteams.com/c/technigo/users/464/" target="_blank" rel="noreferrer">
