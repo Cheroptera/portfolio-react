@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="section-title">
         <h4 className="featured"> Featured Projects </h4>
       </div>
-      {projectList.map(({ title, img, alt, description, tags, code, demo, hasBackendCode, footnote }) => {
+      {projectList.map(({ title, img, alt, description, tags, code, demo, hasBackendCode }) => {
         return (
           <div className="project" key={title}>
             <div className="project-image-container">
