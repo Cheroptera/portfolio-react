@@ -504,6 +504,11 @@ body {
     height: 20px;
   }
 
+  .arrow-section {
+    border: none;
+    opacity: 0;
+  }
+
   .tech-text {
     text-align: start;
     margin: 122px;

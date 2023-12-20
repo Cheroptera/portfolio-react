@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Hero = () => {
   return (
@@ -39,7 +40,9 @@ const Hero = () => {
         </div>
       </header>
       <div className="arrow-section">
-        <img className="arrow" src="./images/pngegg.png" alt="arrow indicating that you should scroll downwards" />
+        <AnchorLink href="#projects">
+          <img type="button" className="arrow" src="./images/pngegg.png" alt="arrow indicating that you should scroll downwards" />
+        </AnchorLink>
       </div>
     </div>
   )
