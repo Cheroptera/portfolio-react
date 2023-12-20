@@ -58,8 +58,8 @@ const LinkButtons = ({ code, demo, hasBackendCode }) => {
       <a href={demo} target="_blank" rel="noreferrer">
         <button type="button" className="live-link-project">
           <svg
-            width="31"
-            height="31"
+            width="26"
+            height="26"
             viewBox="0 0 31 31"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">

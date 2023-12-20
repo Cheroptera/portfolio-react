@@ -92,7 +92,7 @@ body {
 }
 
 .project-image:hover {
-  filter: brightness(40%);
+  transform: scale(1.1);
 }
 
 .arrow-section {
@@ -302,6 +302,7 @@ body {
   background-color: hotpink;
   color: white;
   background-image: white;
+  cursor: pointer;
 }
 
 
@@ -309,6 +310,7 @@ body {
   background-color: blue;
   color: white;
   background-image: white;
+  cursor: pointer;
 }
 
 /* Skills section */

@@ -13,7 +13,9 @@ const Projects = () => {
         return (
           <div className="project" key={title}>
             <div className="project-image-container">
-              <img className="project-image" src={img} alt={alt} loading="lazy" />
+              <a href={demo} target="_blank" rel="noopener noreferrer">
+                <img className="project-image" src={img} alt={alt} loading="lazy" />
+              </a>
             </div>
             <div className="project-text-and-icons">
               <div className="project-text-group">
