@@ -18,10 +18,6 @@ const Projects = () => {
               <div className="project-text-group">
                 <h5 className="project-title"> {title} </h5>
                 <p className="project-text">{description}</p>
-                {footnote ? (
-                  <p className="footnote">{footnote}</p>
-                ) : (
-                )}
               </div>
               <div className="language-buttons">{tags.map((tag) => <span className="language-text" key={tag}>{tag}</span>)}
               </div>
