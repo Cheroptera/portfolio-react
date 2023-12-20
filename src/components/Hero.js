@@ -22,7 +22,7 @@ const Hero = () => {
               </div>
             </section>
             <section>
-              <p className="presentation">I&apos;m a driven, curious and tech-savvy Swede with a background in languages, who decided to switch careers when turning 40 and dive head-first into web development. I love problem-solving, new tech, design and using my creativity to create visually appealing and user-friendly websites and apps. </p>
+              <p className="presentation">I&apos;m a driven, curious and tech-savvy Swede with a background in music composition and linguistics, who decided to switch careers when turning 40 and dive head-first into web development. I love problem-solving, new tech, design and using my creativity to create visually appealing and user-friendly websites and apps. </p>
             </section>
             <section className="socialmedia-icons">
               <a href="https://github.com/Cheroptera" target="_blank" rel="noreferrer">
