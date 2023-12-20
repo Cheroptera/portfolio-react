@@ -18,7 +18,7 @@ export const projectList = [
     img: './images/project-happy-thoughts.webp',
     alt: 'picture of computer',
     description: 'A Twitter-like app without all the negativity. A fullstack project in which I stored the fetched data from the API into the state. I worked with React hooks and used useEffect to fetch data from the API. I also built my own API using Express and MongoDB.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Express.js', 'MongoDB', 'Node.js'],
+    tags: ['JavaScript', 'API', 'React', 'Express.js', 'MongoDB', 'Node.js'],
     demo: 'https://master--jovial-hamster-0bbfb9.netlify.app/',
     hasBackendCode: true,
     code: {
@@ -114,7 +114,7 @@ export const projectList = [
     title: 'Weather App',
     img: './images/weather-app-clear-canva.webp',
     alt: 'picture of weather app',
-    description: 'Weather app built with Vanilla Javascript, fetching data from a public Weather API. The application dynamically alters its visual elements such as color schemes, icons, and descriptions based on the prevailing weather conditions, providing an interactive and engaging user experience.',
+    description: 'Weather app built with Vanilla Javascript, fetching data from a public API. Conditional rendering of visual elements such as color schemes, icons, and descriptions based on the weather conditions, providing an interactive and engaging user experience.',
     tags: ['HTML', 'CSS', 'Vanilla JavaScript', 'API', 'Pair-Programming'],
     demo: 'https://sparkling-palmier-c89c36.netlify.app/',
     hasBackendCode: false,
