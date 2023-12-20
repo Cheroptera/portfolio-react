@@ -88,7 +88,7 @@ body {
 }
 
 .sm-icon:hover {
-  filter: brightness(0%);
+  filter: brightness(40%);
 }
 
 .project-image:hover {
@@ -104,7 +104,7 @@ body {
 
 .arrow {
   width: 50px;
-  animation: bounce 1s infinite alternate;
+  animation: bounce 2s infinite alternate;
 }
 
 @keyframes bounce {
@@ -159,23 +159,20 @@ body {
 }
 
 .highlight-3 {
-  --color-1: #f36d15;
+  --color-1: #65dc8d;
   --color-2: #e870ee;
-  --color-3: #f36d15;
+  --color-3: #65dc8d;
 
 }
 
 .highlight-4 {
-  --color-1: #56c4f4;
-  --color-2: #65dc8d;
-  --color-3: #f36d15;
+  --color-3: #df2ae2;
+  --color-2: #2fee6f;
+  --color-3: #df2ae2;
   ;
 }
 
 @keyframes color-animation {
-  0% {
-    color: var(--color-1)
-  }
 
   32% {
     color: var(--color-1)
@@ -185,21 +182,10 @@ body {
     color: var(--color-2)
   }
 
-  65% {
-    color: var(--color-2)
-  }
-
   66% {
     color: var(--color-3)
   }
 
-  99% {
-    color: var(--color-3)
-  }
-
-  100% {
-    color: var(--color-1)
-  }
 }
 
 /* Projects section */
@@ -684,7 +670,7 @@ body {
   }
 
   .arrow {
-    filter: brightness(10%);
+    filter: brightness(50%);
   }
 
   .tech-title {
