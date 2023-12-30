@@ -129,5 +129,15 @@ export const projectList = [
     demo: 'https://cute-haupia-5d17a8.netlify.app/',
     hasBackendCode: false,
     code: 'https://github.com/Cheroptera/project-guess-who'
+  },
+  {
+    title: 'Labyrinth Game',
+    img: './images/project-labyrinth.webp',
+    alt: 'picture of a game called Labyrinth',
+    description: 'A pair-programming project, in which we built a text-based game allowing the user to navigate through a maze. We fetched the data from an API, used thunks to handle asynchronous actions and Redux to manage the state of the game. ',
+    tags: ['HTML', 'CSS', 'Vanilla JavaScript'],
+    demo: 'https://thebloodylabyrinth.netlify.app/',
+    hasBackendCode: false,
+    code: 'https://github.com/Cheroptera/project-labyrinth'
   }
 ]
