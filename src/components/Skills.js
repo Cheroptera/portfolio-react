@@ -10,9 +10,11 @@ const Skills = () => {
             <li> <span className="code">Code</span></li>
             <li>HTML5</li>
             <li>CSS3</li>
+            <li>Styled Components</li>
+            <li>Tailwind</li>
+            <li>Bootstrap</li>
             <li>JavaScript ES6</li>
             <li>TypeScript</li>
-            <li>Styled Components</li>
             <li>React</li>
             <li>Redux</li>
             <li>Node.js</li>
@@ -53,8 +55,6 @@ const Skills = () => {
           </ul>
           <ul className="skills-list" id="upcomingList">
             <li> <span className="upcoming"> Upcoming </span></li>
-            <li>Next.js</li>
-            <li>SASS/SCSS</li>
             <li>Sanity</li>
             <li>React Native</li>
           </ul>
