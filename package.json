@@ -25,7 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject",
     "lint": "eslint ."
   },
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "eslint-plugin-flowtype": "^8.0.3",
+    "jest": "^27.5.1",
     "react-scripts": "5.0.1"
   }
 }
