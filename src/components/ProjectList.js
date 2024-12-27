@@ -26,6 +26,7 @@ export const projectList = [
       backend: 'https://github.com/Cheroptera/project-happy-thoughts-api'
     }
   },
+  /*
   {
     title: 'News Article App - Case Study',
     img: './images/simple-news-app.webp',
@@ -39,6 +40,7 @@ export const projectList = [
       backend: 'https://json-server-news-site.onrender.com'
     }
   },
+  */
   {
     title: 'To-do App',
     img: './images/project-todos.webp',
