@@ -1,4 +1,6 @@
 
+/* eslint-disable max-len */
+
 export const projectList = [
   {
     title: 'Circuit Training App',
